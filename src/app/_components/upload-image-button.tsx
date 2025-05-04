@@ -34,7 +34,7 @@ export function UploadImagesButton() {
         onUploadError={(error: Error) => {
           toast.dismiss("upload-begin");
           toast.success(
-            <div className="items-center text-white">
+            <div className="items-center">
               <span className="text-lg">Upload Error</span>
             </div>,
           );
